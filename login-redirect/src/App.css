@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.success {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+
+.logoutButton {
+  width: fit-content;
+}
+
+.templates {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.template {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.templateLink {
+  margin-top: 8px;
+  max-width: 250px;
+  color: #61dafb;
+}
+
+.templateImage {
+  width: 250px;
+}
+
