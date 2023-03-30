@@ -5,12 +5,12 @@ import "./App.css";
 const demoForms = [
   {
     title: "SaaS Signup & Onboarding",
-    link: "https://form.feathery.io?_slug=g1vU7Q",
+    link: "https://templates.feathery.io?_slug=g1vU7Q",
     img: "https://feathery.s3.us-west-1.amazonaws.com/templates/SaaS+Signup+&+Onboarding.jpg",
   },
   {
     title: "SMS Signup",
-    link: "https://form.feathery.io?_slug=NHl7C3",
+    link: "https://templates.feathery.io?_slug=NHl7C3",
     img: "https://feathery.s3.us-west-1.amazonaws.com/templates/SMS+Signup.jpg",
   },
   {
@@ -44,12 +44,12 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <h1>Feathery Login via Redirect Demo</h1>
+        <h1>Feathery Login Demo</h1>
         {loggedIn ? (
           <div className="success">
-            Congratulations you logged in with a Feathery template!
+            Congratulations, you logged in with a Feathery template!
             <br />
-            You can logout to try again with another template.
+            You can log out to try again with another template.
             <button
               className="logoutButton"
               onClick={() => stytchClient.session.revoke()}
@@ -61,15 +61,9 @@ function App() {
           <div className="templates">
             {demoForms.map(({ title, link, img }) => {
               return (
-                <div className="template" key={title}>
+                <div className="template" key={title} onClick={() => window.location.href = link}>
                   <img className="templateImage" src={img} alt={title} />
-                  <a
-                    className="templateLink"
-                    href={link}
-                    rel="noopener noreferrer"
-                  >
-                    {title}
-                  </a>
+                  <span className="templateLabel">{title}</span>
                 </div>
               );
             })}

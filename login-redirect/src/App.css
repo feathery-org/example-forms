@@ -35,15 +35,16 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+  width: 250px;
 }
 
-.templateLink {
-  margin-top: 8px;
-  max-width: 250px;
-  color: #61dafb;
+.template:hover > .templateLabel {
+  color: #e2626e;
 }
 
 .templateImage {
-  width: 250px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
