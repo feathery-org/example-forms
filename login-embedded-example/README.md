@@ -1,3 +1,4 @@
 # Guide
 
-This repo has a companion guide that can be found at https://docs.feathery.io/develop/embed-a-login-and-signup-flow/get-started-with-react.
+This login redirect example follows the approach outli
+ned in Feathery's login guide at https://docs.feathery.io/guides/build-login-flow/add-login-to-site/embed-login-flow.
