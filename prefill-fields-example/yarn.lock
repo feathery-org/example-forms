@@ -1437,10 +1437,10 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.42.0.tgz#484a1d638de2911e6f5a30c12f49c7e4a3270fb6"
   integrity sha512-6SWlXpWU5AvId8Ac7zjzmIOqMOba/JWY8XZ4A7q7Gn1Vlfg/SFFIlrtHXt9nPn4op9ZPAkl91Jao+QQv3r/ukw==
 
-"@feathery/react@^1.0.599":
-  version "1.1.108"
-  resolved "https://registry.yarnpkg.com/@feathery/react/-/react-1.1.108.tgz#e4fc83aa30dfba617f3f401cbc76d57ebe9282d4"
-  integrity sha512-n8jXv3OYzIe4Zh5wjxXZGZyWYtrErTQYVkEOnA3lKUt4MQMCgY/hhuvrQmpjpJ4QBrzUSNIB2oZqdmPW+vFKGg==
+"@feathery/react@^1.1.119":
+  version "1.1.119"
+  resolved "https://registry.yarnpkg.com/@feathery/react/-/react-1.1.119.tgz#c2751766069612e06e21c9e0cb3eb68f7cedbdd1"
+  integrity sha512-Ml9HnQUqA47eOecAl71JLS9ijiu+mO6p7/zsfcoRMOelJpB+d12NxgPs/N/tqy97styBVBcMCPAFcqUE+edkLg==
   dependencies:
     "@emotion/babel-preset-css-prop" "^11.2.0"
     "@emotion/react" "^11.9.3"
@@ -1460,7 +1460,7 @@
     react-ga4 "^1.4.1"
     react-gtm-module "^2.0.11"
     react-hotkeys-hook "^3.4.4"
-    react-idle-timer "^5.4.2"
+    react-idle-timer "5.6.2"
     react-imask "6.4.2"
     react-load-script "^0.0.6"
     react-router-dom "^5.2.0"
@@ -8035,10 +8035,10 @@ react-hotkeys-hook@^3.4.4:
   dependencies:
     hotkeys-js "3.9.4"
 
-react-idle-timer@^5.4.2:
-  version "5.7.2"
-  resolved "https://registry.yarnpkg.com/react-idle-timer/-/react-idle-timer-5.7.2.tgz#f506db28a86645dd1b87987116501703e512142b"
-  integrity sha512-+BaPfc7XEUU5JFkwZCx6fO1bLVK+RBlFH+iY4X34urvIzZiZINP6v2orePx3E6pAztJGE7t4DzvL7if2SL/0GQ==
+react-idle-timer@5.6.2:
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/react-idle-timer/-/react-idle-timer-5.6.2.tgz#0342b381ca26ea46e8232dbdc7f2b948bc4ddb0d"
+  integrity sha512-X7zjDv7duCopQ4v3X2Gun8QunvYplPWkvW2y7suDSREu1vQRQ0mr1ESv325QoJuvSIE5QCSbLaJlrbbooNaUNg==
 
 react-imask@6.4.2:
   version "6.4.2"

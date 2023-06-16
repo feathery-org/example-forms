@@ -1,3 +1,4 @@
 # Guide
 
-This is an example of a Feathery form embedded into a custom React application. Some of its fields are pre-filled with custom values.
+This is an example of a Feathery form that has some 
+of its fields pre-filled with custom values.
