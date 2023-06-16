@@ -1,5 +1,5 @@
 {
-  "name": "embedded-form",
+  "name": "prefill-fields",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
